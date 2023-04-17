@@ -1,4 +1,5 @@
-import products from "../../db.json" assert { type: "json" };
+// import products from "../../db.json" assert { type: "json" };
+import products from "https://sat2llite.github.io/data/db.json" assert { type: "json" }; // 주소 절댓값
 // assert { type: "json" }  - 외부파일이 json이라고 확실하게 명시해주어야 함
 // products라고 import할 때 json의 이름을 새로 지어줌
 
